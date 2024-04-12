@@ -25,7 +25,7 @@ const (
 	CefLog_Debug
 )
 
-const log_file_name = "energy.log"
+const log_file_name = "./log/energy.log"
 
 type CefLogger struct {
 	logFile *os.File
